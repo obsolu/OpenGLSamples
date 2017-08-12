@@ -3,7 +3,7 @@
 #include <string.h>
 #include <GL/glew.h>
 #include <GL/freeglut.h>
-#define WINDOW_TITLE_PREFIX "Chapter 2"
+#define WINDOW_TITLE_PREFIX "Chapter 2.1"
 
 int
 CurrentWidth = 800,
@@ -167,7 +167,7 @@ void RenderFunction(void)
 		GLint first: specify the first index of the enabled vertex attribute arrays that we want to draw.
 		GLsizei count:  specify how many of the enabled indices to draw
 	*/
-	glDrawArrays(GL_TRIANGLES, 0, 3);
+	glDrawArrays(GL_TRIANGLES, 0, 6);
 
 	glutSwapBuffers();
 }
@@ -209,15 +209,23 @@ void Cleanup(void)
 void CreateVBO(void)
 {
 	GLfloat Vertices[] = {
+		-0.8f, 0.8f, 0.0f, 1.0f,
+		0.8f, 0.8f, 0.0f, 1.0f,
 		-0.8f, -0.8f, 0.0f, 1.0f,
-		0.0f, 0.8f, 0.0f, 1.0f,
+
+		-0.8f, -0.8f, 0.0f, 1.0f,
+		0.8f, 0.8f, 0.0f, 1.0f,
 		0.8f, -0.8f, 0.0f, 1.0f
 	};
 
 	GLfloat Colors[] = {
 		1.0f, 0.0f, 0.0f, 1.0f,
 		0.0f, 1.0f, 0.0f, 1.0f,
-		0.0f, 0.0f, 1.0f, 1.0f
+		0.0f, 0.0f, 1.0f, 1.0f,
+
+		0.0f, 0.0f, 1.0f, 1.0f,
+		0.0f, 1.0f, 0.0f, 1.0f,
+		1.0f, 1.0f, 1.0f, 1.0f
 	};
 
 	GLenum ErrorCheckValue = glGetError();
