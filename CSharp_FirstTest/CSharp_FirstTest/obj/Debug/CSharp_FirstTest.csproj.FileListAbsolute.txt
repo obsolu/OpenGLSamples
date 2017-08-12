@@ -1,6 +1,0 @@
-E:\VSWorkspace\CSharp_FirstTest\CSharp_FirstTest\bin\Debug\CSharp_FirstTest.exe.config
-E:\VSWorkspace\CSharp_FirstTest\CSharp_FirstTest\bin\Debug\CSharp_FirstTest.exe
-E:\VSWorkspace\CSharp_FirstTest\CSharp_FirstTest\bin\Debug\CSharp_FirstTest.pdb
-E:\VSWorkspace\CSharp_FirstTest\CSharp_FirstTest\obj\Debug\CSharp_FirstTest.csprojResolveAssemblyReference.cache
-E:\VSWorkspace\CSharp_FirstTest\CSharp_FirstTest\obj\Debug\CSharp_FirstTest.exe
-E:\VSWorkspace\CSharp_FirstTest\CSharp_FirstTest\obj\Debug\CSharp_FirstTest.pdb
